@@ -150,6 +150,7 @@ export const product: (
   isPublished: true,
   margin: { __typename: "Margin", start: 2, stop: 7 },
   name: "Ergonomic Plastic Bacon",
+  productCode: "00001111",
   pricing: {
     __typename: "ProductPricingInfo",
     priceRange: {

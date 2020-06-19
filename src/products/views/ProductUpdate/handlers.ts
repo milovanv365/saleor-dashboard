@@ -28,6 +28,7 @@ export function createUpdateHandler(
       id: product.id,
       isPublished: data.isPublished,
       name: data.name,
+      productCode: data.productCode,
       publicationDate:
         data.publicationDate !== "" ? data.publicationDate : null,
       seo: {

@@ -180,6 +180,7 @@ export interface ProductDetails_product {
   attributes: ProductDetails_product_attributes[];
   productType: ProductDetails_product_productType;
   name: string;
+  productCode: string;
   descriptionJson: any;
   seoTitle: string | null;
   seoDescription: string | null;

@@ -53,6 +53,7 @@ interface FormData {
   description: RawDraftContentState;
   isPublished: boolean;
   name: string;
+  productCode: string;
   productType: string;
   seoDescription: string;
   seoTitle: string;
@@ -137,6 +138,7 @@ export const ProductCreatePage: React.FC<ProductCreatePageProps> = ({
     description: {} as any,
     isPublished: false,
     name: "",
+    productCode: "",
     productType: "",
     publicationDate: "",
     seoDescription: "",

@@ -176,6 +176,7 @@ export interface ProductUpdatePageFormData {
   description: RawDraftContentState;
   isPublished: boolean;
   name: string;
+  productCode: string;
   publicationDate: string;
   seoDescription: string;
   seoTitle: string;
@@ -198,6 +199,7 @@ export function getProductUpdatePageFormData(
     description: maybe(() => JSON.parse(product.descriptionJson)),
     isPublished: maybe(() => product.isPublished, false),
     name: maybe(() => product.name, ""),
+    productCode: maybe(() => product.productCode, ""),
     publicationDate: maybe(() => product.publicationDate, ""),
     seoDescription: maybe(() => product.seoDescription, ""),
     seoTitle: maybe(() => product.seoTitle, ""),

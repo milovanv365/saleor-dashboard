@@ -186,6 +186,7 @@ export interface SimpleProductUpdate_productUpdate_product {
   attributes: SimpleProductUpdate_productUpdate_product_attributes[];
   productType: SimpleProductUpdate_productUpdate_product_productType;
   name: string;
+  productCode: string;
   descriptionJson: any;
   seoTitle: string | null;
   seoDescription: string | null;
@@ -721,6 +722,7 @@ export interface SimpleProductUpdateVariables {
   descriptionJson?: any | null;
   isPublished: boolean;
   name?: string | null;
+  productCode?: string | null;
   basePrice?: any | null;
   productVariantId: string;
   productVariantInput: ProductVariantInput;
