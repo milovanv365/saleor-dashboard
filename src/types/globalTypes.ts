@@ -1251,6 +1251,7 @@ export interface ProductVariantInput {
   costPrice?: any | null;
   priceOverride?: any | null;
   sku?: string | null;
+  referenceCode?: string | null;
   trackInventory?: boolean | null;
   weight?: any | null;
 }

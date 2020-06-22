@@ -121,6 +121,7 @@ export interface VariantUpdate_productVariantUpdate_productVariant {
   priceOverride: VariantUpdate_productVariantUpdate_productVariant_priceOverride | null;
   product: VariantUpdate_productVariantUpdate_productVariant_product;
   sku: string;
+  referenceCode: string;
   stocks: (VariantUpdate_productVariantUpdate_productVariant_stocks | null)[] | null;
   trackInventory: boolean;
 }
@@ -335,6 +336,7 @@ export interface VariantUpdateVariables {
   costPrice?: any | null;
   priceOverride?: any | null;
   sku?: string | null;
+  referenceCode?: string | null;
   trackInventory: boolean;
   stocks: StockInput[];
 }

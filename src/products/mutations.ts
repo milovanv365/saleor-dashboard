@@ -360,6 +360,7 @@ export const variantUpdateMutation = gql`
     $costPrice: Decimal
     $priceOverride: Decimal
     $sku: String
+    $referenceCode: String
     $trackInventory: Boolean!
     $stocks: [StockInput!]!
   ) {
@@ -370,6 +371,7 @@ export const variantUpdateMutation = gql`
         costPrice: $costPrice
         priceOverride: $priceOverride
         sku: $sku
+        referenceCode: $referenceCode
         trackInventory: $trackInventory
       }
     ) {

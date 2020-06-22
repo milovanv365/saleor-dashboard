@@ -46,6 +46,7 @@ export function createUpdateHandler(
         productVariantId: product.variants[0].id,
         productVariantInput: {
           sku: data.sku,
+          referenceCode: data.referenceCode,
           trackInventory: data.trackInventory
         },
         updateStocks: data.updateStocks.map(mapFormsetStockToStockInput)

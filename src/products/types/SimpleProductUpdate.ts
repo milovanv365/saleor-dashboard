@@ -322,6 +322,7 @@ export interface SimpleProductUpdate_productVariantUpdate_productVariant {
   priceOverride: SimpleProductUpdate_productVariantUpdate_productVariant_priceOverride | null;
   product: SimpleProductUpdate_productVariantUpdate_productVariant_product;
   sku: string;
+  referenceCode: string;
   stocks: (SimpleProductUpdate_productVariantUpdate_productVariant_stocks | null)[] | null;
   trackInventory: boolean;
 }
