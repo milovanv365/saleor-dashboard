@@ -31,6 +31,7 @@ interface ProductVariantCreatePageFormData {
   priceOverride: string;
   quantity: string;
   sku: string;
+  referenceCode: string;
   trackInventory: boolean;
 }
 

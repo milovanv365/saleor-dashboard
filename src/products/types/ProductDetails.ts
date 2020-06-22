@@ -167,6 +167,7 @@ export interface ProductDetails_product_variants {
   __typename: "ProductVariant";
   id: string;
   sku: string;
+  referenceCode: string;
   name: string;
   priceOverride: ProductDetails_product_variants_priceOverride | null;
   margin: number | null;

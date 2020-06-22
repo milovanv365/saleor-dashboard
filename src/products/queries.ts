@@ -176,6 +176,7 @@ export const productFragmentDetails = gql`
     variants {
       id
       sku
+      referenceCode
       name
       priceOverride {
         ...Money

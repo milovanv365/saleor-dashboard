@@ -57,6 +57,7 @@ interface FormData {
   seoDescription: string;
   seoTitle: string;
   sku: string;
+  referenceCode: string;
   stockQuantity: number;
   trackInventory: boolean;
 }
@@ -142,6 +143,7 @@ export const ProductCreatePage: React.FC<ProductCreatePageProps> = ({
     seoDescription: "",
     seoTitle: "",
     sku: null,
+    referenceCode: null,
     stockQuantity: null,
     trackInventory: false
   };

@@ -180,6 +180,7 @@ export interface ProductUpdatePageFormData {
   seoDescription: string;
   seoTitle: string;
   sku: string;
+  referenceCode: string;
   trackInventory: boolean;
 }
 
@@ -207,6 +208,15 @@ export function getProductUpdatePageFormData(
           ? undefined
           : variants && variants[0]
           ? variants[0].sku
+          : undefined,
+      ""
+    ),
+    referenceCode: maybe(
+      () =>
+        product.productType.hasVariants
+          ? undefined
+          : variants && variants[0]
+          ? variants[0].referenceCode
           : undefined,
       ""
     ),

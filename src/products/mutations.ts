@@ -292,6 +292,7 @@ export const productCreateMutation = gql`
     $basePrice: Decimal
     $productType: ID!
     $sku: String
+    $referenceCode: String
     $seo: SeoInput
     $stocks: [StockInput!]!
     $trackInventory: Boolean!
@@ -309,6 +310,7 @@ export const productCreateMutation = gql`
         basePrice: $basePrice
         productType: $productType
         sku: $sku
+        referenceCode: $referenceCode
         seo: $seo
         stocks: $stocks
         trackInventory: $trackInventory

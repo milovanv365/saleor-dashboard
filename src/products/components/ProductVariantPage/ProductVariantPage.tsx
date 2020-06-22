@@ -34,6 +34,7 @@ export interface ProductVariantPageFormData {
   costPrice: string;
   priceOverride: string;
   sku: string;
+  referenceCode: string;
   trackInventory: boolean;
 }
 

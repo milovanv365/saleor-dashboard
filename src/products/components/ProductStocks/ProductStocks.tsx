@@ -35,6 +35,7 @@ import { WarehouseFragment } from "@saleor/warehouses/types/WarehouseFragment";
 export type ProductStockInput = FormsetAtomicData<null, string>;
 export interface ProductStockFormData {
   sku: string;
+  referenceCode: string;
   trackInventory: boolean;
 }
 
@@ -145,6 +146,21 @@ const ProductStocks: React.FC<ProductStocksProps> = ({
             name="sku"
             onChange={onFormDataChange}
             value={data.sku}
+          />
+        </div>
+        <FormSpacer />
+        <div className={classes.skuInputContainer}>
+          <TextField
+              disabled={disabled}
+              error={!!getFieldError(errors, "referenceCode")}
+              fullWidth
+              helperText={getFieldError(errors, "referenceCode")?.message}
+              label={intl.formatMessage({
+                  defaultMessage: "Reference Code"
+              })}
+              name="referenceCode"
+              onChange={onFormDataChange}
+              value={data.referenceCode}
           />
         </div>
         <FormSpacer />
