@@ -50,6 +50,11 @@ function createMenuStructure(intl: IntlShape): IMenuItem[] {
           ariaLabel: "collections",
           label: intl.formatMessage(sectionNames.collections),
           url: collectionListUrl()
+        },
+        {
+          ariaLabel: "models",
+          label: intl.formatMessage(sectionNames.models),
+          url: collectionListUrl()
         }
       ],
       icon: catalogIcon,

@@ -159,6 +159,10 @@ export const sectionNames = defineMessages({
     defaultMessage: "Collections",
     description: "collections section name"
   },
+  models: {
+    defaultMessage: "Models",
+    description: "models section name"
+  },
   configuration: {
     defaultMessage: "Configuration",
     description: "configuration section name"

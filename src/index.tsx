@@ -41,6 +41,7 @@ import { commonMessages } from "./intl";
 import NavigationSection from "./navigation";
 import { navigationSection } from "./navigation/urls";
 import { NotFound } from "./NotFound";
+import ModelSection from "./models";
 import OrdersSection from "./orders";
 import PageSection from "./pages";
 import PluginsSection from "./plugins";
@@ -183,6 +184,11 @@ const Routes: React.FC = () => {
                     permissions={[PermissionEnum.MANAGE_PRODUCTS]}
                     path="/collections"
                     component={CollectionSection}
+                  />
+                  <SectionRoute
+                    permissions={[PermissionEnum.MANAGE_PRODUCTS]}
+                    path="/models"
+                    component={ModelSection}
                   />
                   <SectionRoute
                     permissions={[PermissionEnum.MANAGE_USERS]}
