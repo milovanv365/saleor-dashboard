@@ -16,7 +16,6 @@ interface ProductDetailsFormProps {
   data: {
     description: RawDraftContentState;
     name: string;
-    productCode: string;
   };
   disabled?: boolean;
   errors: ProductErrorFragment[];
@@ -36,7 +35,7 @@ export const ProductDetailsForm: React.FC<ProductDetailsFormProps> = ({
 }) => {
   const intl = useIntl();
 
-  const formErrors = getFormErrors(["name", "descriptionJson", "productCode"], errors);
+  const formErrors = getFormErrors(["name", "descriptionJson"], errors);
 
   return (
     <Card>
@@ -68,19 +67,6 @@ export const ProductDetailsForm: React.FC<ProductDetailsFormProps> = ({
           onChange={onChange}
         />
         <FormSpacer />
-        <TextField
-          error={!!formErrors.productCode}
-          helperText={getProductErrorMessage(formErrors.productCode, intl)}
-          disabled={disabled}
-          fullWidth
-          label={intl.formatMessage({
-              defaultMessage: "ProductCode",
-              description: "product code"
-          })}
-          name="productCode"
-          value={data.productCode}
-          onChange={onChange}
-        />
       </CardContent>
     </Card>
   );
