@@ -9,6 +9,7 @@ import ordersIcon from "@assets/images/menu-orders-icon.svg";
 import translationIcon from "@assets/images/menu-translation-icon.svg";
 import { categoryListUrl } from "../../categories/urls";
 import { collectionListUrl } from "../../collections/urls";
+import { modelListUrl } from "../../models/urls";
 import { customerListUrl } from "../../customers/urls";
 import { orderDraftListUrl, orderListUrl } from "../../orders/urls";
 import { productListUrl } from "../../products/urls";
@@ -54,7 +55,7 @@ function createMenuStructure(intl: IntlShape): IMenuItem[] {
         {
           ariaLabel: "models",
           label: intl.formatMessage(sectionNames.models),
-          url: collectionListUrl()
+          url: modelListUrl()
         }
       ],
       icon: catalogIcon,

@@ -259,17 +259,17 @@ src/collections/components/CollectionImage/CollectionImage.tsx(71,46): error TS2
 src/collections/components/CollectionImage/CollectionImage.tsx(92,48): error TS2531: Object is possibly 'null'.
 src/collections/components/CollectionImage/CollectionImage.tsx(94,15): error TS2322: Type 'MutableRefObject<HTMLInputElement | undefined>' is not assignable to type 'string | ((instance: HTMLInputElement | null) => void) | RefObject<HTMLInputElement> | null | undefined'.
 src/collections/components/CollectionImage/CollectionImage.tsx(112,22): error TS2322: Type 'CollectionDetails_collection_backgroundImage' is not assignable to type '{ alt?: string | undefined; url: string; }'.
-src/collections/components/CollectionList/CollectionList.tsx(91,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
-src/collections/components/CollectionList/CollectionList.tsx(103,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
-src/collections/components/CollectionList/CollectionList.tsx(114,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
-src/collections/components/CollectionList/CollectionList.tsx(154,41): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(161,44): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(165,49): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(169,27): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(169,27): error TS2531: Object is possibly 'null'.
-src/collections/components/CollectionList/CollectionList.tsx(176,50): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(181,33): error TS2532: Object is possibly 'undefined'.
-src/collections/components/CollectionList/CollectionList.tsx(183,27): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(91,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
+src/collections/components/CollectionList/ModelList.tsx(103,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
+src/collections/components/CollectionList/ModelList.tsx(114,35): error TS2345: Argument of type 'boolean | undefined' is not assignable to parameter of type 'boolean'.
+src/collections/components/CollectionList/ModelList.tsx(154,41): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(161,44): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(165,49): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(169,27): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(169,27): error TS2531: Object is possibly 'null'.
+src/collections/components/CollectionList/ModelList.tsx(176,50): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(181,33): error TS2532: Object is possibly 'undefined'.
+src/collections/components/CollectionList/ModelList.tsx(183,27): error TS2532: Object is possibly 'undefined'.
 src/collections/components/CollectionProducts/CollectionProducts.tsx(122,11): error TS2322: Type 'CollectionDetails_collection_products_edges_node[] | undefined' is not assignable to type 'Node[]'.
 src/collections/components/CollectionProducts/CollectionProducts.tsx(122,30): error TS2531: Object is possibly 'null'.
 src/collections/components/CollectionProducts/CollectionProducts.tsx(152,15): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
@@ -333,33 +333,33 @@ src/collections/views/CollectionDetails.tsx(296,44): error TS2531: Object is pos
 src/collections/views/CollectionDetails.tsx(310,25): error TS2322: Type 'string[] | undefined' is not assignable to type '(string | null)[]'.
 src/collections/views/CollectionDetails.tsx(323,48): error TS2532: Object is possibly 'undefined'.
 src/collections/views/CollectionDetails.tsx(325,50): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(101,5): error TS2322: Type '(params?: CollectionListUrlQueryParams | undefined) => string' is not assignable to type 'CreateUrl'.
-src/collections/views/CollectionList/CollectionList.tsx(134,5): error TS2345: Argument of type 'CollectionList_collections_pageInfo | undefined' is not assignable to parameter of type 'PageInfo'.
-src/collections/views/CollectionList/CollectionList.tsx(134,17): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(134,17): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(140,9): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(140,9): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(151,9): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(151,9): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(162,38): error TS2571: Object is of type 'unknown'.
-src/collections/views/CollectionList/CollectionList.tsx(184,17): error TS2322: Type 'CollectionList_collections_edges_node[] | undefined' is not assignable to type 'CollectionList_collections_edges_node[]'.
-src/collections/views/CollectionList/CollectionList.tsx(185,19): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(185,19): error TS2531: Object is possibly 'null'.
-src/collections/views/CollectionList/CollectionList.tsx(241,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
-src/collections/views/CollectionList/CollectionList.tsx(243,31): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(248,41): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; isPublished: true; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkPublish, CollectionBulkPublishVariables>'.
-src/collections/views/CollectionList/CollectionList.tsx(265,44): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(267,46): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(274,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
-src/collections/views/CollectionList/CollectionList.tsx(276,31): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(281,41): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; isPublished: false; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkPublish, CollectionBulkPublishVariables>'.
-src/collections/views/CollectionList/CollectionList.tsx(298,44): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(300,46): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(307,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
-src/collections/views/CollectionList/CollectionList.tsx(309,31): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(314,40): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkDelete, CollectionBulkDeleteVariables>'.
-src/collections/views/CollectionList/CollectionList.tsx(330,44): error TS2532: Object is possibly 'undefined'.
-src/collections/views/CollectionList/CollectionList.tsx(332,46): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(101,5): error TS2322: Type '(params?: CollectionListUrlQueryParams | undefined) => string' is not assignable to type 'CreateUrl'.
+src/collections/views/CollectionList/ModelList.tsx(134,5): error TS2345: Argument of type 'CollectionList_collections_pageInfo | undefined' is not assignable to parameter of type 'PageInfo'.
+src/collections/views/CollectionList/ModelList.tsx(134,17): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(134,17): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(140,9): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(140,9): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(151,9): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(151,9): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(162,38): error TS2571: Object is of type 'unknown'.
+src/collections/views/CollectionList/ModelList.tsx(184,17): error TS2322: Type 'CollectionList_collections_edges_node[] | undefined' is not assignable to type 'CollectionList_collections_edges_node[]'.
+src/collections/views/CollectionList/ModelList.tsx(185,19): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(185,19): error TS2531: Object is possibly 'null'.
+src/collections/views/CollectionList/ModelList.tsx(241,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/collections/views/CollectionList/ModelList.tsx(243,31): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(248,41): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; isPublished: true; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkPublish, CollectionBulkPublishVariables>'.
+src/collections/views/CollectionList/ModelList.tsx(265,44): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(267,46): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(274,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/collections/views/CollectionList/ModelList.tsx(276,31): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(281,41): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; isPublished: false; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkPublish, CollectionBulkPublishVariables>'.
+src/collections/views/CollectionList/ModelList.tsx(298,44): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(300,46): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(307,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/collections/views/CollectionList/ModelList.tsx(309,31): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(314,40): error TS2345: Argument of type '{ variables: { ids: string[] | undefined; }; }' is not assignable to parameter of type 'MutationFunctionOptions<CollectionBulkDelete, CollectionBulkDeleteVariables>'.
+src/collections/views/CollectionList/ModelList.tsx(330,44): error TS2532: Object is possibly 'undefined'.
+src/collections/views/CollectionList/ModelList.tsx(332,46): error TS2532: Object is possibly 'undefined'.
 src/collections/views/CollectionList/filters.ts(30,7): error TS2322: Type 'CollectionPublished | undefined' is not assignable to type 'CollectionPublished'.
 src/collections/views/CollectionList/sort.ts(16,7): error TS2322: Type 'undefined' is not assignable to type 'CollectionSortField'.
 src/components/AppLayout/AppActionContext.tsx(4,3): error TS2345: Argument of type 'undefined' is not assignable to parameter of type 'RefObject<HTMLDivElement>'.
@@ -2347,7 +2347,7 @@ src/storybook/stories/categories/CategoryUpdatePage.tsx(79,7): error TS2322: Typ
 src/storybook/stories/categories/CategoryUpdatePage.tsx(80,7): error TS2322: Type 'undefined' is not assignable to type 'CategoryDetails_category'.
 src/storybook/stories/collections/CollectionDetailsPage.tsx(40,39): error TS2322: Type 'undefined' is not assignable to type 'CollectionDetails_collection'.
 src/storybook/stories/collections/CollectionDetailsPage.tsx(55,9): error TS2322: Type '{ edges: never[]; } | { edges: never[]; __typename: "ProductCountableConnection"; pageInfo: CollectionDetails_collection_products_pageInfo; }' is not assignable to type 'CollectionDetails_collection_products | null'.
-src/storybook/stories/collections/CollectionListPage.tsx(44,36): error TS2322: Type 'undefined' is not assignable to type 'CollectionList_collections_edges_node[]'.
+src/storybook/stories/collections/ModelListPage.tsx(44,36): error TS2322: Type 'undefined' is not assignable to type 'CollectionList_collections_edges_node[]'.
 src/storybook/stories/components/ActionDialog.tsx(13,7): error TS2322: Type 'undefined' is not assignable to type '() => void'.
 src/storybook/stories/components/ActionDialog.tsx(14,7): error TS2322: Type 'undefined' is not assignable to type '() => any'.
 src/storybook/stories/components/AddressEdit.tsx(24,40): error TS2345: Argument of type '(CustomerDetails_user_defaultBillingAddress & CustomerAddresses_user_defaultBillingAddress) | null' is not assignable to parameter of type 'AddressType'.
