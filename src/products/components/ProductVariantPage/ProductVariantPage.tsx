@@ -113,6 +113,7 @@ const ProductVariantPage: React.FC<ProductVariantPageProps> = ({
     costPrice: maybe(() => variant.costPrice.amount.toString(), ""),
     priceOverride: maybe(() => variant.priceOverride.amount.toString(), ""),
     sku: maybe(() => variant.sku, ""),
+    referenceCode: maybe(() => variant.referenceCode, ""),
     trackInventory: variant?.trackInventory
   };
 

@@ -113,6 +113,7 @@ export interface ProductVariant {
   priceOverride: ProductVariant_priceOverride | null;
   product: ProductVariant_product;
   sku: string;
+  referenceCode: string;
   stocks: (ProductVariant_stocks | null)[] | null;
   trackInventory: boolean;
 }

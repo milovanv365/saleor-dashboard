@@ -87,6 +87,7 @@ const ProductVariantCreatePage: React.FC<ProductVariantCreatePageProps> = ({
     priceOverride: "",
     quantity: "0",
     sku: "",
+    referenceCode: "",
     trackInventory: true
   };
 
